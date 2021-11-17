@@ -8,13 +8,15 @@ body {
 .container {
   padding: 48px;
   display: flex;
+  flex-wrap: wrap;
   gap: 16px;
 }
 
 .card {
   background: white;
   border-radius: 16px;
-  width: 350px;
+  min-width: 325px;
+  max-width: 325px;
   position: relative;
   overflow: hidden;
   box-shadow:
